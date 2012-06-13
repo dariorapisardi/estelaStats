@@ -1,0 +1,37 @@
+estelaStats - README
+--------------------
+
+Introduction - background
+-------------------------
+
+This piece of software is a part of the Flipzu stack.
+
+Flipzu was an audio broadcasting system that would let you stream and listen to live audio broadcasts from your cell phone (Android & iOS) or web browser.
+
+The main focus was ease of use: you hit a button, and you were live on your social networks. 
+
+Opening in mid-2010, Flipzu gained a respectable regional traction but ceased operations as of 14th May 2012, due to lack and funding.
+
+This software is provided as-is, since it's not being developed or maintained any more. If you need some aditional information or help, please check the source code for contact information.
+
+
+Summary
+-------
+
+estelaStats is surely the most unoptimized and dirty piece of software of the whole stack, mostly because it's been working ok since day one, and never had the need to improve it.
+
+It has two main tasks:
+
+- recolect information from main estela instances thru the API port.
+- give statistical information thru HTTP port.
+
+This statistical information is used by humans and other estela instances as well, who uses this server to "ask" if some other server is serving a particular stream, relaying it if so.
+
+Usage instuctions
+-----------------
+
+- Build using ant.
+- Start with the start.sh script. Check that file and customize it for your needs.
+- If everything goes OK, you can use the "estelaStats" init script as a template to start it at boot time.
+
+
